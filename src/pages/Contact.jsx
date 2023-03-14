@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 
 import emailjs from "@emailjs/browser";
 
+import { MdAlternateEmail, MdPerson } from "react-icons/md";
+
 const Contact = () => {
   const form = useRef();
 
@@ -36,36 +38,39 @@ const Contact = () => {
         </h2>
         <div className="grid lg:grid-cols-4">
           <div className="col-span-4 flex flex-col gap-2 pb-5 text-center lg:col-span-1 lg:text-left">
-            <h2 className="text-xl font-bold">Send Me Something !</h2>
-            <p className="text-md">Job offer, messages, anything!</p>
+            <h2 className="text-2xl font-bold">Send Me Something !</h2>
+            <p className="text-lg">Job offer, messages, anything!</p>
           </div>
           <div className="form col-span-4 items-center lg:col-span-3">
             <form ref={form} action="form-group" onSubmit={sendEmail}>
-              <div className="form-div relative mb-6 flex gap-6">
-                <input
-                  type="text"
-                  name="user_name"
-                  className="form-input w-full rounded-xl p-3 shadow-md"
-                  placeholder="name"
-                  required
-                />
-
-                <input
-                  type="email"
-                  name="user_email"
-                  className="form-input w-full rounded-xl p-3 shadow-md"
-                  placeholder="email"
-                  required
-                />
+              <div className="form-div relative mb-6 flex gap-6 ">
+                <div className="flex w-full flex-row gap-3 rounded-2xl bg-white p-2 shadow-md">
+                  <input
+                    type="text"
+                    name="user_name"
+                    className="form-input w-full rounded-xl px-2"
+                    required
+                  />
+                  <MdPerson className="h-12 w-12" />
+                </div>
+                <div className="flex w-full flex-row gap-3 rounded-2xl bg-white p-2 shadow-md">
+                  <input
+                    type="email"
+                    name="user_email"
+                    className="form-input w-full rounded-xl p-2"
+                    required
+                  />
+                  <MdAlternateEmail className="h-12 w-12" />
+                </div>
               </div>
-              <div className="form-div mb-4">
+              <div className="form-div rounded-2xl bg-white lg:p-4 p-2 shadow-md mb-5">
                 <textarea
                   name="message"
                   id="desc"
                   cols="30"
                   rows="10"
-                  className="form-input w-full resize-none rounded-xl p-3 shadow-md"
-                  placeholder="desc"
+                  className="form-input w-full resize-none rounded-xl p-2"
+                  placeholder="Happy Coding!"
                   required
                 ></textarea>
               </div>
