@@ -44,17 +44,17 @@ const Contact = () => {
           <div className="form col-span-4 items-center lg:col-span-3">
             <form ref={form} action="form-group" onSubmit={sendEmail}>
               <div className="form-div relative mb-6 flex gap-6 ">
-                <div className="flex w-full flex-row gap-3 rounded-2xl bg-white p-2 shadow-md">
+                <div className="flex w-full flex-row gap-3 rounded-2xl bg-white p-2 shadow-md items-center">
                   <input
                     type="text"
                     name="user_name"
-                    className="form-input w-full rounded-xl px-2"
+                    className="form-input w-full rounded-xl p-2"
                     placeholder="You!"
                     required
                   />
-                  <MdPerson className="h-12 w-12" />
+                  <MdPerson className="h-8 w-8" />
                 </div>
-                <div className="flex w-full flex-row gap-3 rounded-2xl bg-white p-2 shadow-md">
+                <div className="flex w-full flex-row gap-3 rounded-2xl bg-white p-2 shadow-md items-center">
                   <input
                     type="email"
                     name="user_email"
@@ -62,7 +62,7 @@ const Contact = () => {
                     placeholder="Your Email!"
                     required
                   />
-                  <MdAlternateEmail className="h-12 w-12" />
+                  <MdAlternateEmail className="h-8 w-8" />
                 </div>
               </div>
               <div className="form-div mb-5 rounded-2xl bg-white p-2 shadow-md lg:p-4">
