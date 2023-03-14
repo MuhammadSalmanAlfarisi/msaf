@@ -1,6 +1,6 @@
 import React from "react";
 
-import Constant from "../assets/Constant";
+import Constant from "../Constant";
 import Card from "../components/Card";
 
 const Resume = () => {

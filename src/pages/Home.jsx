@@ -1,6 +1,6 @@
 import React from "react";
 
-import Me from "../assets/avatar-1.svg";
+import Me from "../assets/avatar-1.png";
 import Social from "../components/Social";
 
 import { CgScrollV } from "react-icons/cg";
@@ -16,7 +16,7 @@ const Home = () => {
 
       {/* main home */}
       <div className="z-10 flex flex-col items-center p-3 text-center ">
-        <img src={Me} alt="" className="mb-3 w-24 lg:w-32" />
+        <img src={Me} alt="" className="mb-3 w-36 lg:w-44 rounded-[40%]" />
         <h1 className="text-[36px] font-bold lg:text-[42px]">
           Salman Alfarisi
         </h1>
