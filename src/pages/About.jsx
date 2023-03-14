@@ -13,7 +13,7 @@ const About = () => {
         </h2>
         <div className="flex flex-col items-center lg:flex-row ">
           <div className="absolute z-0 h-[300px] w-[300px] rounded-full bg-rose-200 blur-3xl" />
-          <img src={Me} alt="" className="z-10 w-32 lg:w-[200px] rounded-3xl border-4 mb-2 border-[#fff]" />
+          <img src={Me} alt="" className="z-10 w-[150px] lg:w-[180px] rounded-[20%] border-4 mb-2 border-[#fff]" />
           <div className="z-10 my-5 flex w-full flex-col items-center rounded-[20px] bg-[#fff] p-5 shadow-lg lg:my-0 lg:ml-10 lg:flex-row lg:py-5">
             {/* about */}
             <div className="flex flex-col gap-5 lg:w-[60%] ">
