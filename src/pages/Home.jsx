@@ -12,7 +12,7 @@ const Home = () => {
       id="home"
     >
       {/* shapes */}
-      <div className="absolute z-0 h-[70%] w-[70%] rounded-full bg-cyan-50 blur-3xl" />
+      {/* <div className="absolute z-0 h-[70%] w-[70%] rounded-full bg-cyan-50 blur-3xl" /> */}
 
       {/* main home */}
       <div className="z-10 flex flex-col items-center p-3 text-center ">
