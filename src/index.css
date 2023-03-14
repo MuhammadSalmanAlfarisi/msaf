@@ -30,6 +30,8 @@ body {
   background-color: #f9f7fd;
   line-height: 1.5;
   color: #5e5c7f;
+  overflow-y: auto; 
+  overflow-x: hidden; 
 }
 
 h1,
