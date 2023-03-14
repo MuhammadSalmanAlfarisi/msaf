@@ -16,7 +16,7 @@ const Home = () => {
 
       {/* main home */}
       <div className="z-10 flex flex-col items-center p-3 text-center ">
-        <img src={Me} alt="" className="mb-3 w-36 rounded-[40%] lg:w-44" />
+        <img src={Me} alt="" className="mb-3 w-36 rounded-[40%] lg:w-44 border-text border-4" />
         <h1 className="text-[36px] font-bold lg:text-[42px]">
           Salman Alfarisi
         </h1>
