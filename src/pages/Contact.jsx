@@ -65,14 +65,14 @@ const Contact = () => {
                   <MdAlternateEmail className="h-12 w-12" />
                 </div>
               </div>
-              <div className="form-div rounded-2xl bg-white lg:p-4 p-2 shadow-md mb-5">
+              <div className="form-div mb-5 rounded-2xl bg-white p-2 shadow-md lg:p-4">
                 <textarea
                   name="message"
                   id="desc"
                   cols="30"
                   rows="10"
                   className="form-input w-full resize-none rounded-xl p-2"
-                  placeholder="Happy Coding!"
+                  placeholder='print ("Hello World!")'
                   required
                 ></textarea>
               </div>
