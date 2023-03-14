@@ -22,22 +22,22 @@ const Sidebar = () => {
         <ul className="flex flex-col gap-[1rem]">
           <li className="py-[4px] transition-all hover:scale-125">
             <a href="#home">
-              <BiHomeAlt2 className="h-5 w-5 text-title hover:text-first" />
+              <BiHomeAlt2 className="h-6 w-6 text-title hover:text-first" />
             </a>
           </li>
           <li className="py-[4px] transition-all hover:scale-125">
             <a href="#about">
-              <BiUser className="h-5 w-5 text-title hover:text-first" />
+              <BiUser className="h-6 w-6 text-title hover:text-first" />
             </a>
           </li>
           <li className="py-[4px] transition-all hover:scale-125">
             <a href="#resume">
-              <BiLoader className="h-5 w-5 text-title hover:text-first" />
+              <BiLoader className="h-6 w-6 text-title hover:text-first" />
             </a>
           </li>
           <li className="py-[4px] transition-all hover:scale-125">
             <a href="#contact">
-              <BiPhone className="h-5 w-5 text-title hover:text-first" />
+              <BiPhone className="h-6 w-6 text-title hover:text-first" />
             </a>
           </li>
         </ul>
