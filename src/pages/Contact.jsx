@@ -49,6 +49,7 @@ const Contact = () => {
                     type="text"
                     name="user_name"
                     className="form-input w-full rounded-xl px-2"
+                    placeholder="You!"
                     required
                   />
                   <MdPerson className="h-12 w-12" />
@@ -58,6 +59,7 @@ const Contact = () => {
                     type="email"
                     name="user_email"
                     className="form-input w-full rounded-xl p-2"
+                    placeholder="Your Email!"
                     required
                   />
                   <MdAlternateEmail className="h-12 w-12" />
