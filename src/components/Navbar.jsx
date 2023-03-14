@@ -16,7 +16,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-body md:hidden lg:hidden w-full">
+    <header className="bg-body md:hidden lg:hidden w-[100vw]">
       <nav
         className="fixed z-20 mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
