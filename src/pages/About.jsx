@@ -13,7 +13,11 @@ const About = () => {
         </h2>
         <div className="flex flex-col items-center lg:flex-row ">
           <div className="absolute z-0 h-[300px] w-[300px] rounded-full bg-rose-200 blur-3xl" />
-          <img src={Me} alt="" className="z-10 w-[150px] lg:w-[180px] rounded-[20%] border-4 mb-2 border-[#fff]" />
+          <img
+            src={Me}
+            alt=""
+            className="z-10 mb-2 w-[150px] rounded-[20%] border-4 border-[#fff] lg:w-[180px]"
+          />
           <div className="z-10 my-5 flex w-full flex-col items-center rounded-[20px] bg-[#fff] p-5 shadow-lg lg:my-0 lg:ml-10 lg:flex-row lg:py-5">
             {/* about */}
             <div className="flex flex-col gap-5 lg:w-[60%] ">
@@ -44,7 +48,7 @@ const About = () => {
           </div>
         </div>
         <div className="flex flex-row items-center justify-center px-2 lg:mt-[1rem] lg:justify-end ">
-          <button className="rounded-2xl bg-first py-2 px-4 font-bold text-white hover:bg-[#CC3D4D]">
+          <button className="hover:outline-[#CC3D4D] rounded-2xl bg-first py-2 px-4 my-2 font-bold text-white hover:bg-[#CC3D4D] hover:outline-4 hover:outline-offset-4 outline-dotted">
             <a href="https://pdfhost.io/v/LXs9psshx_Muhammad_Salman_Alfarisi_Frontend_Developer">
               Download CV
             </a>

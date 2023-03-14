@@ -14,7 +14,7 @@ const Resume = () => {
           Journey
         </h2>
         <div className="grid-row-2 grid gap-4 lg:grid-cols-2 lg:gap-6 ">
-          <div className="timeline relative grid rounded-2xl bg-[#fff] p-3 shadow-lg lg:p-4">
+          <div className="timeline relative grid rounded-2xl bg-[#fff] p-3 shadow-lg lg:p-4 z-10">
             {Constant.map((item, id) => {
               if (item.category === "education") {
                 return (
@@ -29,6 +29,7 @@ const Resume = () => {
               }
             })}
           </div>
+          <div className="absolute h-[300px] w-[300px] rounded-full bg-rose-200 blur-3xl left-[50%] z-0" /> 
           <div className="timeline relative grid rounded-2xl bg-[#fff] p-3 shadow-lg lg:p-4 ">
             {Constant.map((item, index) => {
               if (item.category === "experience") {
