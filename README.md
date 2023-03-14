@@ -1,9 +1,8 @@
-# template-vite-react-tailwind-v3
+# MSAF
 
-- **template of:** vite + react
-- **tailwindcss:** v3.x
+### My personal Vite + React + Tailwind Portofolio
 
-## Started
+### Started
 ```bash
 yarn
 # or `npm install`
