@@ -12,7 +12,7 @@ const About = () => {
           About Moon
         </h2>
         <div className="flex flex-col items-center lg:flex-row ">
-          {/* <div className="absolute z-0 h-[300px] w-[300px] rounded-full bg-rose-200 blur-3xl" /> */}
+          <div className="absolute z-0 h-[300px] w-[300px] rounded-full bg-rose-200 blur-3xl" />
           <img
             src={Me}
             alt=""

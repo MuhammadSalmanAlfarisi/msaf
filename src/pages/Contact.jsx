@@ -36,7 +36,7 @@ const Contact = () => {
         <h2 className="section__title z-10 text-center text-[2rem] font-bold lg:text-start">
           Connect
         </h2>
-        {/* <div className="absolute left-[15%] -z-10 h-[300px] w-[300px] rounded-full bg-cyan-100 blur-3xl" /> */}
+        <div className="absolute left-[15%] -z-10 h-[300px] w-[300px] rounded-full bg-cyan-100 blur-3xl" />
         <div className="grid lg:grid-cols-4">
           <div className="col-span-4 flex flex-col gap-2 pb-5 text-center lg:col-span-1 lg:text-left">
             <h2 className="text-2xl font-bold">Send Me Something !</h2>
