@@ -7,7 +7,7 @@ import Card from "../components/Card";
 
 const Resume = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false });
+  const isInView = useInView(ref, { once: true });
 
   return (
     <section
