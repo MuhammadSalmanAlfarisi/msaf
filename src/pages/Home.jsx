@@ -13,7 +13,7 @@ const Home = () => {
     >
       {/* shapes */}
       {/* <div className="absolute z-0 h-[70%] w-[70%] rounded-full bg-cyan-50 blur-3xl" /> */}
-
+      
       {/* main home */}
       <div className="z-10 flex flex-col items-center p-3 text-center ">
         <img src={Me} alt="" className="mb-3 w-36 rounded-[40%] lg:w-44 border-text border-4" />
