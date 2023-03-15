@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useRef } from "react";
 
 import Me from "../assets/avatar-2.png";
 
 import { SiReact, SiTailwindcss, SiLaravel } from "react-icons/si";
+import { useInView } from "framer-motion";
 
 const About = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: false });
+
   return (
-    <section className="container relative flex min-h-screen" id="about">
-      <div className="flex flex-col justify-center">
+    <section
+      ref={ref}
+      className="container relative flex min-h-screen"
+      id="about"
+    >
+      <div
+        style={{
+          transform: isInView ? "none" : "translatex(-100px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s",
+        }}
+        className="flex flex-col justify-center"
+      >
         <h2 className="section__title z-10 text-center text-[2rem] font-bold lg:text-start">
           About Moon
         </h2>
@@ -48,7 +63,7 @@ const About = () => {
           </div>
         </div>
         <div className="flex flex-row items-center justify-center px-2 lg:mt-[1rem] lg:justify-end ">
-          <button className="hover:outline-[#CC3D4D] rounded-2xl bg-first py-2 px-4 my-2 font-bold text-white hover:bg-[#CC3D4D] hover:outline-4 hover:outline-offset-4 outline-dotted">
+          <button className="my-2 rounded-2xl bg-first py-2 px-4 font-bold text-white outline-dotted hover:bg-[#CC3D4D] hover:outline-4 hover:outline-offset-4 hover:outline-[#CC3D4D]">
             <a href="https://pdfhost.io/v/LXs9psshx_Muhammad_Salman_Alfarisi_Frontend_Developer">
               Download CV
             </a>

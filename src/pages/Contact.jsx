@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 
 import emailjs from "@emailjs/browser";
 
+import { useInView } from "framer-motion";
 import { MdAlternateEmail, MdPerson } from "react-icons/md";
 
 const Contact = () => {
@@ -30,9 +31,23 @@ const Contact = () => {
     alert("Email sent successfully");
   };
 
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: false });
+
   return (
-    <section className="container relative flex min-h-screen p-24" id="contact">
-      <div className="flex w-full flex-col justify-center ">
+    <section
+      ref={ref}
+      className="container relative flex min-h-screen p-24"
+      id="contact"
+    >
+      <div
+        style={{
+          transform: isInView ? "none" : "translatex(-100px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s",
+        }}
+        className="flex w-full flex-col justify-center "
+      >
         <h2 className="section__title z-10 text-center text-[2rem] font-bold lg:text-start">
           Connect
         </h2>
@@ -78,7 +93,7 @@ const Contact = () => {
                 ></textarea>
               </div>
               <button
-                className="bg-blue-400 outline-dotted hover:outline-offset-4 hover:outline-4 hover:outline-blue-500	rounded-2xl py-2 mx-2 px-5 font-bold text-white hover:bg-blue-500"
+                className="mx-2 rounded-2xl bg-blue-400 py-2 px-5	font-bold text-white outline-dotted hover:bg-blue-500 hover:outline-4 hover:outline-offset-4 hover:outline-blue-500"
                 type="submit"
                 value="send"
               >
