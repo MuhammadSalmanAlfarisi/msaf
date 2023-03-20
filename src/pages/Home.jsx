@@ -7,6 +7,9 @@ import { CgScrollV } from "react-icons/cg";
 import { useInView } from "framer-motion";
 
 const Home = () => {
+  const firstName = ["S", "a", "l", "m", "a", "n"];
+  const lastName = ["A", "l", "f", "a", "r", "i", "s", "i"];
+
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -33,9 +36,28 @@ const Home = () => {
           alt=""
           className="mb-3 w-36 rounded-[40%] border-4 border-text lg:w-44"
         />
-        <h1 className="text-[36px] font-bold lg:text-[42px]">
-          Salman Alfarisi
-        </h1>
+        <div className="flex flex-row gap-2">
+          <div>
+            {firstName.map((letter, index) => (
+              <span
+                key={index}
+                className="cursor-default text-[36px] font-bold hover:text-first lg:text-[42px]"
+              >
+                {letter}
+              </span>
+            ))}
+          </div>
+          <div>
+            {lastName.map((letter, index) => (
+              <span
+                key={index}
+                className="cursor-default text-[36px] font-bold hover:text-first lg:text-[42px]"
+              >
+                {letter}
+              </span>
+            ))}
+          </div>
+        </div>
         {/* add animation type */}
         <span className="text-md font-semibold">
           <code>Frontend Dev</code>
