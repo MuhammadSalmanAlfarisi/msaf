@@ -6,14 +6,13 @@ import {
   BiUser,
   BiHomeAlt2,
   BiPhone,
-  BiFileFind,
   BiBriefcase,
   BiLoader,
 } from "react-icons/bi";
 
 const Sidebar = () => {
   return (
-    <aside className="hidden aside fixed top-0 left-0 z-10 lg:flex md:flex h-full w-24 flex-col content-center items-center justify-between gap-4 border-r-[1px] border-solid border-[#0000000d] bg-body p-10">
+    <aside className="aside fixed top-0 left-0 z-10 hidden h-full w-24 flex-col content-center items-center justify-between gap-4 border-r-[1px] border-solid border-[#0000000d] bg-body p-10 md:flex lg:flex">
       <a href="/" className="flex h-[80px] w-[80px] justify-center">
         <img src={Logo} alt="" className="h-10 w-10" />
       </a>
@@ -31,6 +30,11 @@ const Sidebar = () => {
             </a>
           </li>
           <li className="py-[4px] transition-all hover:scale-125">
+            <a href="#projects">
+              <BiBriefcase className="h-6 w-6 text-title hover:text-first" />
+            </a>
+          </li>
+          <li className="py-[4px] transition-all hover:scale-125">
             <a href="#resume">
               <BiLoader className="h-6 w-6 text-title hover:text-first" />
             </a>
@@ -44,7 +48,7 @@ const Sidebar = () => {
       </nav>
 
       <div className="footer">
-        <p className="text-[#9b98b3] text-xs">© 2023. All rights reserved.</p>
+        <p className="text-xs text-[#9b98b3]">© 2023. All rights reserved.</p>
       </div>
     </aside>
   );

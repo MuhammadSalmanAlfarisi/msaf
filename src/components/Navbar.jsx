@@ -16,7 +16,7 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-body md:hidden lg:hidden w-[100vw]">
+    <header className="w-[100vw] bg-body md:hidden lg:hidden">
       <nav
         className="fixed z-20 mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
@@ -68,6 +68,13 @@ export default function Navbar() {
                   className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   About
+                </a>
+                <a
+                  href="#projects"
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >
+                  Work
                 </a>
                 <a
                   href="#resume"

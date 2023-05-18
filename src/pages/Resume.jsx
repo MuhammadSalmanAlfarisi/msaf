@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import { useInView } from "framer-motion";
 
 import Constant from "../Constant";
+
 import Card from "../components/Card";
 
 const Resume = () => {

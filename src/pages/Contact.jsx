@@ -64,17 +64,17 @@ const Contact = () => {
                   <input
                     type="text"
                     name="user_name"
-                    className="form-input w-full rounded-xl p-2"
+                    className="form-input w-full rounded-xl border-2 p-2"
                     placeholder="You!"
                     required
                   />
                   <MdPerson className="h-8 w-8" />
                 </div>
-                <div className="z-10 flex w-full flex-row items-center gap-3 rounded-2xl bg-white p-2 shadow-md">
+                <div className="z-10 flex w-full flex-row items-center gap-3  rounded-2xl bg-white p-2 shadow-md">
                   <input
                     type="email"
                     name="user_email"
-                    className="form-input z-10 w-full rounded-xl p-2"
+                    className="form-input z-10 w-full rounded-xl border-2 p-2"
                     placeholder="Your Email!"
                     required
                   />
@@ -87,7 +87,7 @@ const Contact = () => {
                   id="desc"
                   cols="30"
                   rows="10"
-                  className="form-input z-20 w-full resize-none rounded-xl p-2"
+                  className="form-input z-20 w-full resize-none rounded-xl border-2 p-2"
                   placeholder='print ("Hello World!")'
                   required
                 ></textarea>

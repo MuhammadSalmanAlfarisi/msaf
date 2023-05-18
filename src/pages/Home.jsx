@@ -60,7 +60,7 @@ const Home = () => {
         </div>
         {/* add animation type */}
         <span className="text-md font-semibold">
-          <code>Frontend Dev</code>
+          <code className="cursor-default"><span>React</span> // <span>Tailwind</span> // <span>Node</span></code>
         </span>
         <Social />
       </div>
