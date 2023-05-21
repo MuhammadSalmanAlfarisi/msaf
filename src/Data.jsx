@@ -1,7 +1,7 @@
 import project1 from "../src/assets/project-1.jpeg";
 import project2 from "../src/assets/project-2.jpeg";
 import project3 from "../src/assets/project-3.jpeg";
-import project4 from "../src/assets/project-4.svg";
+import project4 from "../src/assets/project-4.jpeg";
 import project5 from "../src/assets/project-5.jpeg";
 
 const Data = [
