@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 
-import Me from "../assets/avatar-2.png";
+import Me from "../assets/avatar-1.jpeg";
 
 import { SiReact, SiTailwindcss, SiLaravel } from "react-icons/si";
 import { useInView } from "framer-motion";

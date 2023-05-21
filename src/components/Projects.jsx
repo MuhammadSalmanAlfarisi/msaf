@@ -55,7 +55,7 @@ const Projects = (props) => {
       </div>
       {/* desktop/tablet card */}
       <div className="hidden max-w-sm scale-0 flex-col rounded-2xl  border border-gray-200 bg-white shadow duration-700 ease-in-out dark:border-gray-700 dark:bg-gray-800 md:flex md:scale-90 lg:flex lg:scale-100">
-        <div className="overflow-clip h-[153px]">
+        <div className="overflow-clip ">
           <img className="rounded-t-lg object-cover" src={props.image} alt="" />
         </div>
         <div className="p-4">

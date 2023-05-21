@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 
-import Me from "../assets/avatar-1.png";
+import Me from "../assets/avatar-3.jpeg";
 import Social from "../components/Social";
 
 import { CgScrollV } from "react-icons/cg";

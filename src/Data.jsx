@@ -1,8 +1,8 @@
-import project1 from "../src/assets/project-1.jpeg";
-import project2 from "../src/assets/project-2.jpeg";
-import project3 from "../src/assets/project-3.jpeg";
-import project4 from "../src/assets/project-4.jpeg";
-import project5 from "../src/assets/project-5.jpeg";
+import project1 from "../src/assets/project-1.jpg";
+import project2 from "../src/assets/project-2.jpg";
+import project3 from "../src/assets/project-3.jpg";
+import project4 from "../src/assets/project-4.jpg";
+import project5 from "../src/assets/project-5.jpg";
 
 const Data = [
   {
