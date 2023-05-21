@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 
+import "../index.css"
+
 import Me from "../assets/avatar-3.jpeg";
 import Social from "../components/Social";
 
@@ -20,7 +22,7 @@ const Home = () => {
       id="home"
     >
       {/* shapes */}
-      <div className="absolute z-0 h-[70%] w-[70%] rounded-full bg-cyan-50 blur-3xl" />
+      <div className="absolute z-0 h-[50%] w-[50%] rounded-full bg-cyan-100 blur-3xl" />
 
       {/* main home */}
       <div
@@ -34,7 +36,7 @@ const Home = () => {
         <img
           src={Me}
           alt=""
-          className="mb-3 w-36 rounded-[40%] border-4 border-text lg:w-44"
+          className="profile mb-3 w-36 border-4 border-text lg:w-44"
         />
         <div className="flex flex-row gap-2">
           <div>
