@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   body {
     font-family: "PT Sans Narrow", sans-serif;

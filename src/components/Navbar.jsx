@@ -18,10 +18,10 @@ export default function Navbar() {
   return (
     <header className="w-[100vw] bg-body md:hidden lg:hidden">
       <nav
-        className="fixed z-20 mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="fixed z-30 mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 "
         aria-label="Global"
       >
-        <div className="flex rounded-lg bg-white p-1 shadow lg:hidden">
+        <div className="flex rounded-lg bg-white p-1 lg:hidden border-2 border-gray-200">
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"

@@ -20,7 +20,7 @@ const Data = [
     image: project4,
     title: "INTech",
     desc: "A news application i made for a final assignment. Made with React Native, Expo, and TailwindCSS.",
-    tech: ["React Native", "TailwindCSS", "Expo"],
+    tech: ["React Native", "TailwindCSS"],
     link: "https://github.com/MuhammadSalmanAlfarisi/INTech",
   },
   {
@@ -29,7 +29,7 @@ const Data = [
     image: project2,
     title: "Portofolio Website",
     desc: "A simple portofolio website to showcase my projects. Made using ReactJS and TailwindCSS.",
-    tech: ["ReactJS", "TailwindCSS", "Flowbite"],
+    tech: ["ReactJS", "TailwindCSS"],
     link: "https://github.com/MuhammadSalmanAlfarisi/msaf",
   },
   {
@@ -38,7 +38,7 @@ const Data = [
     image: project3,
     title: "CRUD Website",
     desc: "A manga management CRUD i made for my final assignment. Made using Laravel and TailwindCSS.",
-    tech: ["Laravel", "Blade", "TailwindCSS"],
+    tech: ["Laravel", "TailwindCSS"],
     link: "https://github.com/MuhammadSalmanAlfarisi/Japanese-CRUD",
   },
   {
@@ -47,7 +47,7 @@ const Data = [
     image: project5,
     title: "KEMNAKER RI",
     desc: "A form based website i made as an internship assignment. Made using ReactJS and TailwindCSS.",
-    tech: ["ReactJS", "TailwindCSS", "HeadlessUI"],
+    tech: ["ReactJS", "TailwindCSS"],
     link: "https://github.com/MuhammadSalmanAlfarisi/form-usulan-frontend",
   },
 ];

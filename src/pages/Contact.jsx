@@ -64,7 +64,7 @@ const Contact = () => {
                   <input
                     type="text"
                     name="user_name"
-                    className="form-input w-full rounded-xl border-2 p-2"
+                    className="form-input w-full rounded-xl border-2 border-gray-300 p-2"
                     placeholder="You!"
                     required
                   />
@@ -74,7 +74,7 @@ const Contact = () => {
                   <input
                     type="email"
                     name="user_email"
-                    className="form-input z-10 w-full rounded-xl border-2 p-2"
+                    className="form-input z-10 w-full rounded-xl border-2 border-gray-300 p-2"
                     placeholder="Your Email!"
                     required
                   />
@@ -87,8 +87,8 @@ const Contact = () => {
                   id="desc"
                   cols="30"
                   rows="10"
-                  className="form-input z-20 w-full resize-none rounded-xl border-2 p-2"
-                  placeholder='print ("Hello World!")'
+                  className="form-input z-20 w-full resize-none rounded-xl border-2 border-gray-300 p-2"
+                  placeholder="Your Message!"
                   required
                 ></textarea>
               </div>

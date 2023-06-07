@@ -4,6 +4,8 @@ import { useInView } from "framer-motion";
 
 import Data from "../Data";
 
+import Carousel from "../components/Carousel";
+
 import Projects from "../components/Projects";
 
 const Work = () => {
@@ -33,20 +35,9 @@ const Work = () => {
           opacity: isInView ? 1 : 0,
           transition: "all 0.5s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s",
         }}
-        className="z-20 space-y-5 md:grid md:grid-cols-2 md:gap-2 md:space-y-0 lg:grid lg:grid-cols-3 lg:gap-10 lg:space-y-0"
+        className="w-full"
       >
-        {Data.map((item, id) => {
-          return (
-            <Projects
-              key={id}
-              image={item.image}
-              title={item.title}
-              desc={item.desc}
-              tech={item.tech}
-              link={item.link}
-            />
-          );
-        })}
+        <Carousel />
       </div>
     </section>
   );

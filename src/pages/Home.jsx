@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import "../index.css"
 
 import Me from "../assets/avatar-3.jpeg";
+
 import Social from "../components/Social";
 
 import { CgScrollV } from "react-icons/cg";
